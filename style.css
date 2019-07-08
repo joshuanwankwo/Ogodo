@@ -1,0 +1,203 @@
+*{
+    margin: 0px auto;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+nav a{
+    font-family: 'Days One', sans-serif;
+    color: black;
+}
+
+form{
+    display: flex;
+}
+
+#look{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(180, 177, 177) solid;
+    height: 40px;
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    border-right: #FFFFFF;
+    background-color: #F8F8F8;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.fa-search{
+    display: flex;
+    align-items: center;
+    border: 1px rgb(180, 177, 177) solid;
+    height: 38px;
+    width: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-left: #FFFFFF;
+    background-color: #F8F8F8;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: inherit;
+    font-family: 'Kameron', serif;
+}
+
+ .aside h4, button, .fa-heart{
+    display: flex;
+}
+.aside button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+.fa-heart{
+    color: black;
+    outline-color: black;
+}
+
+main{
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 1200px;
+    background-color: #FEB9DC;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+main button{
+    padding: 10px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+main h5{
+    padding: 20px 10px;
+}
+
+section{
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+}
+
+aside>div:nth-child(1){
+    height: 6vh;
+}
+aside>div{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #F5F5F5;
+    height: 12vh;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.showcase{
+    width: 70%;
+}
+
+.showcase h1{
+    padding: 5px;
+    font-size: 2rem;
+}
+.showcase h4{
+    padding: 5px;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.showcase button{
+    border: 1px solid gray;
+    padding: 10px 30px;
+    display: inline;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.showcase button:nth-child(7){
+    padding: 10px 20px;
+    background-color: black;
+    margin-left: 30px;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards>div{
+    background-color: #F5F5F5;
+    height: 50vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.cards>div:nth-child(1){
+    background: url("src/61P2OsE-5UL._UL1001_.jpg")
+}
+
+.cards>div:nth-child(2){
+    background: url("src/77225678-swag-urban-outfit-girl-stylish-black-clothes-and-bright-accessories-keds-cap-headphones-street-fashi.jpg")
+}
+
+.cards>div:nth-child(3){
+    background: url("src/Swag-clothes-mens-side-split-oversized-big-hood-hoodies-hip-hop-fashion-big-and-tall-men.jpg_640x640.jpg")
+}
+
+.cards>div:nth-child(4){
+    background: url("src/s-l300.jpg")
+}
