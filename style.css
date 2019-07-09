@@ -32,8 +32,9 @@ form{
     border-bottom-left-radius:10px;
     border-right: #FFFFFF;
     background-color: #F8F8F8;
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Comfortaa', cursive;
+    padding: 10px;
 }
 
 .fa-search{
@@ -84,7 +85,8 @@ nav a{
 }
 
 main{
-    padding: 40px 20px;
+    color: #4f4f4f;
+    padding: 30px 20px;
     flex-wrap: wrap;
     height: 400px;
     width: 1200px;
@@ -99,7 +101,7 @@ main{
 
 main button{
     padding: 10px 35px;
-    background-color: black;
+    background-color: #4f4f4f;
     color: white;
     border-radius: 5px;
     border: none;
@@ -129,9 +131,14 @@ aside{
 aside>div:nth-child(1){
     height: 6vh;
 }
+
+aside>div:nth-child(2){
+    background-color: #9175DC;
+    color: #F8F8F8;
+}
 aside>div{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-evenly;
     background-color: #F5F5F5;
     height: 12vh;
@@ -139,6 +146,13 @@ aside>div{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+aside img{
+    height: 100%;
+    width: 50%;
 }
 
 .showcase{
@@ -146,17 +160,27 @@ aside>div{
 }
 
 .showcase h1{
-    padding: 5px;
     font-size: 2rem;
 }
-.showcase h4{
+
+.showcase h1, h4{
     padding: 5px;
 }
 
+.showcase a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
 .actions{
     display: flex;
     justify-content: space-around;
     padding: 50px 0px;
+}
+
+.actions button:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .showcase button{
@@ -180,24 +204,55 @@ aside>div{
 }
 
 .cards>div{
+    position: relative;
     background-color: #F5F5F5;
     height: 50vh;
     width: 15vw;
-    border-radius: 10px;
+    border-radius: 40px;
+}
+
+.cards>div>i{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
 }
 
 .cards>div:nth-child(1){
-    background: url("src/61P2OsE-5UL._UL1001_.jpg")
+    background: url("src/61P2OsE-5UL._UL1001_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cards>div:nth-child(2){
-    background: url("src/77225678-swag-urban-outfit-girl-stylish-black-clothes-and-bright-accessories-keds-cap-headphones-street-fashi.jpg")
+    background: url("src/77225678-swag-urban-outfit-girl-stylish-black-clothes-and-bright-accessories-keds-cap-headphones-street-fashi.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cards>div:nth-child(3){
-    background: url("src/Swag-clothes-mens-side-split-oversized-big-hood-hoodies-hip-hop-fashion-big-and-tall-men.jpg_640x640.jpg")
+    background: url("src/Swag-clothes-mens-side-split-oversized-big-hood-hoodies-hip-hop-fashion-big-and-tall-men.jpg_640x640.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cards>div:nth-child(4){
-    background: url("src/s-l300.jpg")
+    background: url("src/s-l300.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+.cards i{
+    background-color: #4f4f4f;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
 }
